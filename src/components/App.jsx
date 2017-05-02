@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import '../App.css';
 
 class App extends Component {
  render() {
@@ -11,7 +12,7 @@ class App extends Component {
                 <div className='form-group'>
                     <input className='form-control' placeholder='I have to...' />
                 </div>
-                <button type='button' classname='btn btn-success'>Add Reminder</button>
+                <button type='button' className='btn btn-success'>Add Reminder</button>
             </div>
         </div>
      )
